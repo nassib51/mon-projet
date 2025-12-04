@@ -15,12 +15,5 @@ pipeline {
                 sh 'mvn clean package'
             }
         }
-
-        stage('Deploy') {
-            steps {
-                // Copier le WAR sur Tomcat
-                sh 'cp target/mon-projet-1.0-SNAPSHOT.war ~/tomcat10/webapps/'
-            }
-        }
     }
 }
