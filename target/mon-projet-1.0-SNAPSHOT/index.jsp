@@ -10,7 +10,7 @@
     </style>
 </head>
 <body>
-    <h1>Ma Calculatrice 🖩</h1>
+    <h1>Ma Calculatrice111111 🖩</h1>
     <div class="calculator">
         <input type="text" id="result" disabled><br>
         <button onclick="clearResult()">C</button>
